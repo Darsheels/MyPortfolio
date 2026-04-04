@@ -6,8 +6,7 @@ export default function About() {
       <div className="container">
         <h2 className="Section_title">About</h2>
         <p className="Section_lead">
-          I’m a frontend developer who enjoys building clean, accessible UI and
-          collaborating with teams to ship products users love.
+          I have worked on a variety of projects, from personal websites to the development of applications and Video Games. I am always looking for new challenges and opportunities to learn and grow as a developer.
         </p>
 
         <div className="About_grid">
@@ -20,11 +19,14 @@ export default function About() {
               <li>Express Js</li>
               <li>PostgreSQL</li>
               <li>Python + Libraries (pygame, tkinter)</li>
+              <li>Asset development and design</li>
             </ul>
           </div>
           <div className="About_card">
             <h3>Tools</h3>
             <ul>
+              <li>Postman</li>
+              <li>Aseprite</li>
               <li>Git / GitHub</li>
               <li>Figma / UI Design</li>
               <li>Testing (Vitest / Testing Library)</li>

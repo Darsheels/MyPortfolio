@@ -22,7 +22,7 @@ export const projects = [
     description: 'A side‑view 2D firefighting simulator where the player responds to emergencies, drives trucks, manages equipment, and progresses through a firefighter career made in a python library called pygame , art done in Aseprite and several other softwares(STILL IN PROGRESS!!)',
     tags: ['Python' , 'Pygame', 'Aseprite'],
     liveUrl: '#',
-    repoUrl: 'https://github.com/Darsheets/Fuego',
+    repoUrl: 'https://github.com/Darsheels/Fuego',
     pictures: [FuegoPic1,FuegoPic2,FuegoPic3,]
   },
 ]
