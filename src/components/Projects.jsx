@@ -1,7 +1,8 @@
-import React from 'react'
-import { projects } from '../data/projects'
+import React, { useState } from 'react'
+import { projects} from '../data/projects'
 
 export default function Projects() {
+  const [fullscreenImage, setFullscreenImage] = useState(null)
   return (
     <section id="projects" className="Section">
       <div className="container">
@@ -46,11 +47,30 @@ export default function Projects() {
                     Code
                   </a>
                 )}
+
+                <div className='Pictures'>
+                  {project.pictures?.map((picture, index) => (
+                    <img
+                      key={index}
+                      src={picture}
+                      alt={`${project.title} ${index + 1}`}
+                      className="ProjectCard_image"
+                      onClick={() => setFullscreenImage(picture)}
+                    />
+                  ))}
+                </div>
               </div>
             </article>
           ))}
         </div>
       </div>
+
+      {fullscreenImage && (
+        <div className="Fullscreen_overlay" onClick={() => setFullscreenImage(null)}>
+          <img src={fullscreenImage} alt="Fullscreen view" className="Fullscreen_image" />
+          <button className="Fullscreen_close" onClick={() => setFullscreenImage(null)}>✕</button>
+        </div>
+      )}
     </section>
   )
 }

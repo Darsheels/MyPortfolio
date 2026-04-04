@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 body {
@@ -93,6 +94,7 @@ a:hover {
 }
 
 .Header {
+  user-select: none;
   position: sticky;
   top: 0;
   z-index: 30;
@@ -102,6 +104,7 @@ a:hover {
 }
 
 .Header_inner {
+  user-select: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -109,6 +112,7 @@ a:hover {
 }
 
 .Header_logo {
+  user-select: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -123,6 +127,7 @@ a:hover {
 }
 
 .Header_navList {
+  user-select: none;
   display: flex;
   gap: 1.25rem;
   align-items: center;
@@ -132,6 +137,8 @@ a:hover {
 }
 
 .Header_navLink {
+  user-select: none;
+
   color: var(--muted);
   font-weight: 600;
   font-size: 0.95rem;
@@ -159,7 +166,7 @@ a:hover {
 }
 
 .Hero {
-  padding-top: 6.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 5rem;
   text-align: center;
 }
@@ -168,6 +175,7 @@ a:hover {
   margin: 0;
   font-size: clamp(2.75rem, 6vw, 4.25rem);
   letter-spacing: -0.03em;
+  user-select: none;
 }
 
 .Hero_subtitle {
@@ -182,6 +190,23 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+
+.Hero_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.25rem;
+  padding: 20px;
+}
+
+.PersonalPicture {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 50px;
 }
 
 .About_grid {
@@ -240,10 +265,81 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.Pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.ProjectCard_image {
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.ProjectCard_image:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
 .Projects_grid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.Fullscreen_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+  animation: fadeIn 200ms ease;
+}
+
+.Fullscreen_image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.Fullscreen_close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 150ms ease;
+  padding: 0.5rem;
+}
+
+.Fullscreen_close:hover {
+  color: var(--accent);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .Contact_cards {

@@ -1,11 +1,15 @@
 import React from 'react'
+import PersonalPicture from '../assets/PersonalPicture.jpg'
 
 export default function Hero() {
   return (
     <section id="home" className="Section Hero">
       <div className="container">
         <div className="Hero_inner">
-          <h1 className="Hero_title">Hi, I'm Darsheel</h1>
+          <div className="Hero_header">
+            <h1 className="Hero_title">Hi, I'm Darsheel</h1>
+            <img className='PersonalPicture' src={PersonalPicture} alt="Darsheel Salecha" />
+          </div>
           <p className="Hero_subtitle">
             I build modern web experiences with React, Vite, and thoughtful design also having a good knowledge in python and have worked and made a few projects with a few libraries within it like pygame and tkinter
           </p>
