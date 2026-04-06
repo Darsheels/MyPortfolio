@@ -28,7 +28,7 @@ export default function Contact() {
 
           <a
             className="Contact_card"
-            href="https://github.com/Darsheets"
+            href="https://github.com/Darsheels"
             target="_blank"
             rel="noreferrer"
           >
