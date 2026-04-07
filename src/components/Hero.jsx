@@ -11,7 +11,7 @@ export default function Hero() {
             <img className='PersonalPicture' src={PersonalPicture} alt="Darsheel Salecha" />
           </div>
           <p className="Hero_subtitle">
-            I am a freelance developer with a passion for creating beautiful and functional websites , programs and video games. I have experience in HTML, CSS, JavaScript, Python  , Express and React with multiple other python libraries like pygame and tkinter. I am always looking for new projects to work on and new clients to collaborate with.
+            I am a freelance developer with a passion for creating beautiful and functional websites , programs, video games and CyberSecurity/Ethical Hacking. I have experience in Powershell , Windows and Linux OS , HTML, CSS, JavaScript, Python  , Express and React with multiple other python libraries like pygame and tkinter. I am always looking for new projects to work on and new clients to collaborate with.
           </p>
           <div className="Hero_actions">
             <a className="Button primary" href="#projects">
