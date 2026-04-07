@@ -13,13 +13,13 @@ export default function About() {
           <div className="About_card">
             <h3>Skills</h3>
             <ul>
-              <li>React + Vite</li>
-              <li>TypeScript + JavaScript</li>
-              <li>CSS / Tailwind</li>
-              <li>Express Js</li>
-              <li>PostgreSQL</li>
-              <li>Python + Libraries (pygame, tkinter)</li>
-              <li>Asset development and design</li>
+              <li>Modular architecture design</li>
+              <li>Version control workflows</li>
+              <li>Problem‑solving</li>
+              <li>algorithmic thinking</li>
+              <li>Full-Stack Web Development</li>
+              <li>Game Development</li>
+              <li>Data handling and management</li>
             </ul>
           </div>
           <div className="About_card">
@@ -28,9 +28,25 @@ export default function About() {
               <li>Postman</li>
               <li>Aseprite</li>
               <li>Git / GitHub</li>
-              <li>Figma / UI Design</li>
-              <li>Testing (Vitest / Testing Library)</li>
-              <li>CI / CD</li>
+              <li>VS Code</li>
+              <li>Terminal/Windows/Linux</li>
+              <li>React/Vite</li>
+              <li>Pygame</li>
+              <li>Tkinter</li>
+              <li>Tiled</li>
+              <li>Postegres SQL</li>
+            </ul>
+          </div>
+           <div className="About_card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>Lua</li>
             </ul>
           </div>
         </div>
