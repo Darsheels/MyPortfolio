@@ -37,7 +37,7 @@ export const projects = [
     description: 'My Personal Portfolio made in JavaScript , HTML and CSS using React as the frontend',
     tags: ['React' , 'Express', 'Sqlite' , 'HTML' , 'CSS'],
     liveUrl: '#',
-    repoUrl: 'https://github.com/Darsheels/Fuego',
+    repoUrl: 'https://github.com/Darsheels/MyPortfolio',
     pictures: [PortfolioPic4,PortfolioPic2,PortfolioPic3, PortfolioPic1]
   },
 ]
