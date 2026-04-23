@@ -36,6 +36,8 @@ export default function Contact() {
             <p>Check out my projects on GitHub</p>
           </a>
 
+          
+
         </div>
       </div>
     </section>
