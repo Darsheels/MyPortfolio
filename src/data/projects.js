@@ -29,7 +29,7 @@ export const projects = [
     tags: ['Python' , 'Pygame', 'Aseprite'],
     liveUrl: '#',
     repoUrl: 'https://github.com/Darsheels/Fuego',
-    pictures: [FuegoPic1,FuegoPic2,FuegoPic3,FuegoPic4]
+    pictures: [FuegoPic1,FuegoPic2,FuegoPic3,FuegoPic4]//FuegoPic1,FuegoPic2,FuegoPic3,FuegoPic4
   },
   {
     id: 'My Portfolio',
