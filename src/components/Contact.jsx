@@ -36,6 +36,16 @@ export default function Contact() {
             <p>Check out my projects on GitHub</p>
           </a>
 
+           <a
+            className="Contact_card"
+            href="https://www.linkedin.com/in/darsheel-salecha-aa5865401/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>LinkedIn</h3>
+            <p>Check out my projects on GitHub</p>
+          </a>
+
           
 
         </div>
