@@ -10,6 +10,10 @@ import PortfolioPic1 from '../assets/PortfolioPic1.png'
 import PortfolioPic2 from '../assets/PortfolioPic2.png'
 import PortfolioPic3 from '../assets/PortfolioPic3.png'
 import PortfolioPic4 from '../assets/PortfolioPic4.png'
+import Gsec1 from '../assets/Gsec1.png'
+import Gsec2 from '../assets/Gsec2.png'
+import Gsec3 from '../assets/Gsec3.png'
+import Gsec4 from '../assets/Gsec4.png'
 
 export const projects = [
 
@@ -40,5 +44,14 @@ export const projects = [
     repoUrl: 'https://github.com/Darsheels/MyPortfolio',
     pictures: [PortfolioPic4,PortfolioPic2,PortfolioPic3, PortfolioPic1]
   },
+  {
+    id: "GuardoraSecurity",
+    title: "Guardora Security",
+    description: "Guardora Security is a lightweight, threat‑scanning platform designed to help individuals and small teams instantly detect phishing attempts, malicious URLs, and dangerous QR codes before they cause damage. Built for speed, clarity, and real‑world protection, Guardora gives users a simple way to verify suspicious links and stay safe online.",
+    tags: ['React' , 'Express', 'Sqlite' , 'HTML' , 'CSS'],
+    liveUrl: '#',
+    repoUrl: 'https://github.com/Darsheets/GuardoraSecurity',
+    pictures: [Gsec1,Gsec2,Gsec3, Gsec4]
+  }
 ]
 
