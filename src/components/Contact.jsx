@@ -11,9 +11,9 @@ export default function Contact() {
         </p>
 
         <div className="Contact_cards">
-          <a className="Contact_card" href="mailto:you@example.com">
+          <a className="Contact_card" href="https://mail.google.com/mail/">
             <h3>Email</h3>
-            <p>darshgames.salecha@gmail.com</p>
+            <p>darsheel.salecha@gmail.com</p>
           </a>
 
           <a
@@ -23,7 +23,7 @@ export default function Contact() {
             rel="noreferrer"
           >
             <h3>Discord</h3>
-            <p>Contacting me on discord</p>
+            <p>Contact me on discord</p>
           </a>
 
           <a
@@ -43,7 +43,7 @@ export default function Contact() {
             rel="noreferrer"
           >
             <h3>LinkedIn</h3>
-            <p>Check out my projects on GitHub</p>
+            <p>Check out my page on LinkedIn</p>
           </a>
 
           
