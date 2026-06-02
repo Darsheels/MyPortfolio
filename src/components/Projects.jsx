@@ -27,7 +27,7 @@ export default function Projects() {
               </div>
 
               <div className="ProjectCard_actions">
-                {/* {project.liveUrl && (
+                {project.liveUrl && (
                   <a
                     className="Button tertiary"
                     href={project.liveUrl}
@@ -36,7 +36,7 @@ export default function Projects() {
                   >
                     Live
                   </a>
-                )} */}
+                )}
                 {project.repoUrl && (
                   <a
                     className="Button tertiary"
