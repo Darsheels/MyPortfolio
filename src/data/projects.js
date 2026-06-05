@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 'Fuego',
     title: 'Fuego',
-    description: 'A side‑view 2D firefighting simulator where the player responds to emergencies, drives trucks, manages equipment, and progresses through a firefighter career made in a python library called pygame , art done in Aseprite and several other softwares(STILL IN PROGRESS!!)',
+    description: 'A side‑view 2D firefighting simulator where the player responds to emergencies, drives trucks, manages equipment, and progresses through a firefighter career made in a python library called pygame , art done in Aseprite and several other softwares(OUT NOW!!)',
     tags: ['Python' , 'Pygame', 'Aseprite'],
     liveUrl: 'https://darshgames.itch.io/fuego',
     repoUrl: 'https://github.com/Darsheels/Fuego',
