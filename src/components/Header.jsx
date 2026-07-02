@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const navItems = [
-  { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#contact', label: 'Contact' },
-]
+  { href: "#home", label: "Home" },
+  { href: "#about", label: "About" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
+];
 
 export default function Header() {
   return (
@@ -31,5 +31,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }

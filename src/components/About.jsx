@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function About() {
   return (
@@ -6,7 +6,9 @@ export default function About() {
       <div className="container">
         <h2 className="Section_title">About</h2>
         <p className="Section_lead">
-          I have worked on a variety of projects, from personal websites to the development of applications and Video Games. I am always looking for new challenges and opportunities to learn and grow as a developer.
+          I have worked on a variety of projects, from personal websites to the
+          development of applications and Video Games. I am always looking for
+          new challenges and opportunities to learn and grow as a developer.
         </p>
 
         <div className="About_grid">
@@ -37,7 +39,7 @@ export default function About() {
               <li>Postegres SQL</li>
             </ul>
           </div>
-           <div className="About_card">
+          <div className="About_card">
             <h3>Languages</h3>
             <ul>
               <li>Python</li>
@@ -52,5 +54,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

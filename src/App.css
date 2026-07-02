@@ -18,7 +18,12 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   color: var(--text);
   background: radial-gradient(circle at top, #0e1a2c, var(--bg));
 }
@@ -64,7 +69,10 @@ a:hover {
   font-weight: 600;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease;
   text-decoration: none;
 }
 
@@ -151,7 +159,7 @@ a:hover {
 }
 
 .Header_navLink::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -0.25rem;
@@ -281,7 +289,9 @@ a:hover {
   border-radius: 0.75rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   cursor: pointer;
-  transition: transform 150ms ease, border-color 150ms ease;
+  transition:
+    transform 150ms ease,
+    border-color 150ms ease;
 }
 
 .ProjectCard_image:hover {
@@ -357,7 +367,9 @@ a:hover {
   background: var(--surface);
   color: var(--text);
   text-decoration: none;
-  transition: transform 180ms ease, border-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease;
 }
 
 .Contact_card:hover {
