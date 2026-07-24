@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Guardora Security is a lightweight, threat‑scanning platform designed to help individuals and small teams instantly detect phishing attempts, malicious URLs, and dangerous QR codes before they cause damage. Built for speed, clarity, and real‑world protection, Guardora gives users a simple way to verify suspicious links and stay safe online.",
     tags: ["React", "Express", "Sqlite", "HTML", "CSS"],
-    liveUrl: "https://guardorasecurity.up.railway.app/",
+    liveUrl: "https://guardora-security.vercel.app/",
     repoUrl: "https://github.com/Darsheets/GuardoraSecurity",
     pictures: [Gsec1, Gsec2, Gsec3, Gsec4],
   },
