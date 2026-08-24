@@ -33,10 +33,11 @@ export default function About() {
               <li>VS Code</li>
               <li>Terminal/Windows/Linux</li>
               <li>React/Vite</li>
-              <li>Pygame</li>
-              <li>Tkinter</li>
+              <li>Godot</li>
               <li>Tiled</li>
-              <li>Postegres SQL</li>
+              <li>PostgreSQL</li>
+              <li>Docker</li>
+              <li>Figma</li>
             </ul>
           </div>
           <div className="About_card">
@@ -49,6 +50,8 @@ export default function About() {
               <li>CSS</li>
               <li>SQL</li>
               <li>Lua</li>
+              <li>Java</li>
+              <li>GDScript</li>
             </ul>
           </div>
         </div>

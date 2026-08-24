@@ -6,31 +6,33 @@ export default function Hero() {
     <section id="home" className="Section Hero">
       <div className="container">
         <div className="Hero_inner">
-          <div className="Hero_header">
+          <div className="Hero_content">
             <h1 className="Hero_title">Hi, I'm Darsheel</h1>
-            <img
-              className="PersonalPicture"
-              src={portfolioimg}
-              alt="Darsheel Salecha"
-            />
+            <p className="Hero_subtitle">
+              I’m a developer focused on turning ideas into real-world projects.
+              I enjoy building software, experimenting with new technologies,
+              and solving problems that require both creativity and technical
+              thinking. From web applications and cybersecurity tools to games
+              and backend systems, I like challenging myself to learn whatever
+              is necessary to bring an idea to life. I’m constantly expanding my
+              skills in software engineering, AI, and cybersecurity, with the
+              goal of becoming someone who can take an idea from concept to a
+              fully working product.
+            </p>
+            <div className="Hero_actions">
+              <a className="Button primary" href="#projects">
+                View projects
+              </a>
+              <a className="Button secondary" href="#contact">
+                Contact me
+              </a>
+            </div>
           </div>
-          <p className="Hero_subtitle">
-            I am a freelance developer with a passion for creating beautiful and
-            functional websites , programs, video games and
-            CyberSecurity/Ethical Hacking. I have experience in Powershell ,
-            Windows and Linux OS , HTML, CSS, JavaScript, Python , Express and
-            React with multiple other python libraries like pygame and tkinter.
-            I am always looking for new projects to work on and new clients to
-            collaborate with.
-          </p>
-          <div className="Hero_actions">
-            <a className="Button primary" href="#projects">
-              View projects
-            </a>
-            <a className="Button secondary" href="#contact">
-              Contact me
-            </a>
-          </div>
+          <img
+            className="PersonalPicture"
+            src={portfolioimg}
+            alt="Darsheel Salecha"
+          />
         </div>
       </div>
     </section>

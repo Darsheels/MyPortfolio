@@ -15,7 +15,13 @@ export default function Projects() {
           {projects.map((project) => (
             <article key={project.id} className="ProjectCard">
               <div className="ProjectCard_body">
-                <h3 className="ProjectCard_title">{project.title}</h3>
+                <div className="ProjectCard_header">
+                  <h3 className="ProjectCard_title">{project.title}</h3>
+                  <span className="ProjectCard_status">
+                    <span className="ProjectCard_statusDot" aria-hidden="true" />
+                    Released
+                  </span>
+                </div>
                 <p className="ProjectCard_description">{project.description}</p>
                 <div className="ProjectCard_tags">
                   {project.tags.map((tag) => (
@@ -34,7 +40,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Live
+                    Project
                   </a>
                 )}
                 {project.repoUrl && (
@@ -44,7 +50,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Code
+                    Github
                   </a>
                 )}
 

@@ -16,7 +16,7 @@ export const projects = [
     id: "Fuego",
     title: "Fuego",
     description:
-      "A side‑view 2D firefighting simulator where the player responds to emergencies, drives trucks, manages equipment, and progresses through a firefighter career made in a python library called pygame , art done in Aseprite and several other softwares(OUT NOW!!)",
+      "A side‑view 2D firefighting simulator where the player responds to emergencies, drives trucks, manages equipment, and progresses through a firefighter career made in a python library called pygame , art done in Aseprite and several other softwares.",
     tags: ["Python", "Pygame", "Aseprite"],
     liveUrl: "https://darshgames.itch.io/fuego",
     repoUrl: "https://github.com/Darsheels/Fuego",
@@ -26,7 +26,7 @@ export const projects = [
     id: "My Portfolio",
     title: "My Portfolio",
     description:
-      "My Personal Portfolio made in JavaScript , HTML and CSS using React as the frontend",
+      "My Personal Portfolio made in JavaScript , HTML and CSS using React as the frontend.",
     tags: ["React", "Express", "Sqlite", "HTML", "CSS"],
     liveUrl: "https://darsheelcodes.vercel.app/",
     repoUrl: "https://github.com/Darsheels/MyPortfolio",

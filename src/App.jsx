@@ -10,14 +10,12 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-
       <main>
         <Hero />
         <About />
         <Projects />
         <Contact />
       </main>
-
       <Footer />
     </div>
   );
