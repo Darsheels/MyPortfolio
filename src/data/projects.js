@@ -10,6 +10,10 @@ import Gsec1 from "../assets/Gsec1.png";
 import Gsec2 from "../assets/Gsec2.png";
 import Gsec3 from "../assets/Gsec3.png";
 import Gsec4 from "../assets/Gsec4.png";
+import DarsTrip1 from "../assets/DarsTrip1.png";
+import DarsTrip2 from "../assets/DarsTrip2.png";
+import DarsTrip3 from "../assets/DarsTrip3.png";
+import DarsTrip4 from "../assets/DarsTrip4.png";
 
 export const projects = [
   {
@@ -41,5 +45,14 @@ export const projects = [
     liveUrl: "https://www.guardorasec.com/",
     repoUrl: "https://github.com/Darsheets/GuardoraSecurity",
     pictures: [Gsec1, Gsec2, Gsec3, Gsec4],
+  },
+  {
+    id: "DarsTrip",
+    title: "DarsTrip",
+    description:
+      "DarsTrip is a travel planning application that allows users to create and share their travel itineraries, discover new destinations, and connect with other travelers.",
+    tags: ["React", "Express", "MongoDB", "HTML", "CSS"],
+    liveUrl: "https://dars-trip.vercel.app/",
+    pictures: [DarsTrip1, DarsTrip2, DarsTrip3, DarsTrip4],
   },
 ];
